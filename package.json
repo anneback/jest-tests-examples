@@ -2,7 +2,8 @@
   "name": "jest-test-examples",
   "author": "https://github.com/anneback",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "tdd": "npm run test -- --watch"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.21.5",
